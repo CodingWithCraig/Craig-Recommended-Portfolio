@@ -193,6 +193,14 @@ body {
         text-align: center;
     }
 
+    /*Commited Changes to fix unwanted movements*/
+    #myDetails {
+        display: inline-block;
+        min-height: 1em;
+        white-space:nowrap;
+
+    }
+
     body{
     background-image: url('Background.jpg');
     background-size: cover;
@@ -269,3 +277,4 @@ body {
         color: #00e1ffd0;
     }
 }
+
