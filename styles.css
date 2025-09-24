@@ -111,7 +111,7 @@ body {
         align-items: center;
         border-color: #ffffff;
         border-style: solid;
-        transform: scale(1.05);
+        transform: scale(1.02);
         transition: transform 0.3s ease;
 
     }
@@ -239,6 +239,15 @@ body {
     #nav-toggle {
         display: none;
     }
+
+    /*Commited Changes to fix unwanted movements*/
+        #positions {
+            position: absolute;
+            margin-left: 40%;
+        }
+        #myDetails p {
+            margin-top: 4rem;
+        }
 
     body {
         /* justify-content: center; */
