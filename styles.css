@@ -195,11 +195,16 @@ body {
 
     /*Commited Changes to fix unwanted movements*/
     #myDetails {
-        display: inline-block;
-        min-height: 1em;
-        white-space:nowrap;
+        position: relative;
+        }
+        #positions {
+            position: absolute;
+        }
+        #myDetails p {
+            margin-top: 4rem;
+        }
 
-    }
+
 
     body{
     background-image: url('Background.jpg');
@@ -208,9 +213,6 @@ body {
     background-attachment: fixed;
     }
 
-    #position {
-        position: relative;
-    }
     
 
 
@@ -277,4 +279,3 @@ body {
         color: #00e1ffd0;
     }
 }
-
