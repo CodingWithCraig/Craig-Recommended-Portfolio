@@ -17,6 +17,6 @@ Skills Showcase: The skills section has been revamped with interactive skill bar
 
 Better Performance: Optimized for faster load times and a smoother user experience, ensuring quick and seamless interaction.
 
-I highly recommend checking out the updated version — it’s a huge leap forward from my old site! I’ve focused on making this portfolio more dynamic, interactive, and visually appealing, while still keeping it professional and easy to navigate.
+I highly recommend checking out the updated version it’s a huge leap forward from my old site! I’ve focused on making this portfolio more dynamic, interactive, and visually appealing, while still keeping it professional and easy to navigate.
 
 Feel free to explore, and if you have any questions or feedback, don’t hesitate to reach out. I’m always happy to connect with fellow developers, designers, and enthusiasts!
