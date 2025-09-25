@@ -52,7 +52,7 @@ a {
 /*Gradient background animation*/
 
 body {
-    background: linear-gradient(-45deg, #007900, #023600, #031b00, #345f2a);
+    background: linear-gradient(-45deg, #013301, #191f19, #031b00, #345f2a);
     background-size: 400% 400%;
     animation: gradientShift 20s ease infinite;
 }
@@ -102,17 +102,16 @@ body {
     }
 
     #myDetails:hover, #tech-skills:hover, #soft-skills:hover, #projects:hover, #insights:hover {
-        background-color: #1f9c00bd;
+        background-color: #1f9c006b;
         color: rgb(255, 255, 255);
         border-radius: 21%;
         padding: 1rem;
         margin-top: 2rem;
         text-align: center;
         align-items: center;
-        border-color: #ffffff;
-        border-style: solid;
         transform: scale(1.02);
-        transition: transform 0.3s ease;
+        transition: transform 0.9s ease;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 
     }
 
@@ -204,11 +203,14 @@ body {
             margin-top: 4rem;
         }
 
+        #connect {
+            margin-bottom: 2px;
+            background-color: whitesmoke;
+        }
 
 
     body{
     background-image: url('Background.jpg');
-    background-size: cover;
     background-size: 99% 100%;
     background-attachment: fixed;
     }
@@ -232,7 +234,7 @@ body {
         color: rgb(255, 255, 255);
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 601px) {
     #positions {
         margin-left: 39%;
     }
@@ -250,11 +252,11 @@ body {
         }
 
     body {
-        /* justify-content: center; */
+        max-width: 100%;
         margin: 0;
-        padding: 0;
         height: 100vh; /* Full viewport height */
         display: flex;
+        flex-direction: column;
         align-items: center;     /* Vertical center */
     }
     #headers {
@@ -272,16 +274,25 @@ body {
 
 
     #myDetails, #tech-skills, #soft-skills, #projects, #insights {
+    padding-left: 10rem;
+    padding-right: 10rem;
     position: relative;
-    background-color: #1f9c0086;
+    background-color: transparent;
     color: rgb(255, 255, 255);
     border-radius:100px;
-    padding: 1rem;
-    margin-top: 2rem;
+    margin-top: 4rem;
     text-align: center;
     align-items: center;
     border: none;
     font-size: 1.2rem;
+    }
+
+    #connect {
+        margin-bottom: 1rem;
+        border-radius: 1px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 3rem;
     }
 
     a {
