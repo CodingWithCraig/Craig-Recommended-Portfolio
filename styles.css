@@ -109,7 +109,7 @@ body {
         margin-top: 2rem;
         text-align: center;
         align-items: center;
-        transform: scale(1.02);
+        transform: transformY(-5px);
         transition: transform 0.9s ease;
         box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 
@@ -299,3 +299,4 @@ body {
         color: #00e1ffd0;
     }
 }
+
