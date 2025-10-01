@@ -106,11 +106,10 @@ body {
         color: rgb(255, 255, 255);
         border-radius: 21%;
         padding: 1rem;
-        margin-top: 2rem;
         text-align: center;
         align-items: center;
         transform: transformY(-5px);
-        /* transition: transform 0.9s ease; */
+        transition: transform 0.9s ease;
         box-shadow: 4px 4px 4px black;
 
     }
@@ -299,5 +298,6 @@ body {
         color: #00e1ffd0;
     }
 }
+
 
 
