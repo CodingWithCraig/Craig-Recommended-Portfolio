@@ -1,4 +1,4 @@
-const words = ["Technology", "Web Development", "Software Engineering"];
+const words = ["Technology", "Software Development", "Web Development", "Software Engineering"];
 let currentWordIndex = 0;
 let letterIndex = 0;
 let isDeleting = false;
@@ -28,3 +28,4 @@ function type() {
 }
 
 type();
+
